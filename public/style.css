@@ -1,0 +1,50 @@
+#root {
+    font-family: sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 400;
+    padding: .5em;
+    border-bottom: solid 1px #ccc;
+}
+
+h1 .backlink {
+   font-size: 1em; 
+}
+
+div.todo {
+    font: 1em sans-serif;
+    padding: .5em;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+div.todo:hover {
+    background: #ccf;
+}
+
+div.icon {
+    flex: 0 1 auto;
+    padding: 5px;
+}
+
+div.summary {
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+div.title {
+    /* font-weight: bold; */
+}
+
+div.details {
+    color: #999;
+}
+
